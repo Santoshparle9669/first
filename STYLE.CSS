@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+box-sizing: border-box;
+
+}
+.container{
+    background-color: rgb(8, 7, 7);
+    height: 100vh;
+    display: flex;
+
+}
+.form-section{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+
+}
+.form-section img{
+    height: 60px;
+    margin-bottom: 50px;
+
+}
+.form-section form{
+   
+    height: 300px;
+    width: 65%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form-section input{
+    margin-bottom: 28px;
+    height: 35px;
+    width: 280px;
+    background: black;
+    border-color: aliceblue;
+    color: #fff;
+
+    
+}
+.sing-btn{
+    height: 30px;
+    width: 280px;
+    background: rgb(42, 137, 233);
+    border: none;
+    margin-bottom: 20px;
+    color:#fff;
+
+}
+.form-section a{
+ text-decoration: none;
+    color: rgb(54, 9, 187);
+    align-items: center;
+    justify-content: center;
+
+}
+.create-btn{
+    height: 30px;
+    width: 280px;
+    background: rgb(94, 91, 91);
+    color: #fff;
+    margin-top: 20px;
+    border: none;
+
+
+}
+.line{
+    width: 280px;
+    border-bottom: 1px solid gray;
+    margin-top:20px;
+}
+.image-section{
+    background: url(./login-background.png);
+    height: 100%;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.image-section img{
+ height: 350px;
+}
+.skill-btn{
+    height: 45px;
+    width: 130px;
+    background:#ff1675;
+    border-radius: 5px;
+    border:none;
+}
+
